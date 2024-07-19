@@ -1,0 +1,147 @@
+.opacity0{
+    opacity: 0;
+}
+
+.opacity1{
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.input-text {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 40px;
+    border-radius: 32px;
+    font-size: 20px;
+}
+
+.button {
+    width: 300px;
+    border-radius: 32px;
+    padding: 20px;
+    font-size: 20px;
+cursor: pointer;
+}
+
+.block {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 2px solid #A2A2A2;
+}
+
+.block-e {
+    width: 50px;
+    height: 50px;
+    border: 2px solid  #5D5959;
+    border-radius: 100%;
+    background-color: bisque;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#id1 {
+    position: absolute;
+    top: 125px;
+    left: 125px;
+}
+#id2 {
+    position: absolute;
+    top: -25px;
+    left: 275px;
+}
+
+#id3 {
+    position: absolute;
+    top: 270px;
+    left: -26px;
+}
+
+#id4 {
+    position: absolute;
+    top: 125px;
+    left: -80px;
+}
+
+#id5 {
+    position: absolute;
+    top: 125px;
+    left: 325px;
+}
+
+#id6 {
+    position: absolute;
+    top: -25px;
+    left: -28px;
+}
+
+#id7 {
+    position: absolute;
+    top: 275px;
+    left: 275px;
+}
+
+
+.row-1 {
+    width: 380px;
+    height: 0px;
+    position: absolute;
+    border: 1px solid #7F7F7F;
+    transform: rotate(-45deg);
+    bottom: 150px;
+    left: -43px;
+    z-index: -1;
+}
+
+
+.row-2 {
+    width: 380px;
+    height: 0px;
+    position: absolute;
+    border: 1px solid #7F7F7F;
+    bottom: 150px;
+    left: -43px;
+    z-index: -1;
+}
+
+.block1 {
+    background-color: #fff;
+}
+
+.block2 {
+    background-color: #E0DDD8 ;
+    color: #5D5959;
+}
+
+.block5 {
+    background-color: #880030;
+    color: #E0DCD5;
+}
+
+.block4 {
+    background-color: #C02660;
+    color: #E0DDD9;
+}
+
+.block3 {
+    background-color: #F588BF;
+    color: #E0DDD9;
+}
